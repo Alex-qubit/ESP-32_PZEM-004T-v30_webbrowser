@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <title>Power meter</title>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="odometer.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="content">
+     <div class="card-grid">
+        <div class="card">
+            <p class="card-title">VOLTAGE <span class="color-red"> V</span></p>
+            <div class="voltage"></div>
+        </div>
+        <div class="card">
+            <p class="card-title">CURRENT <span class="color-red"> A</span></p>
+            <div class="current"></div>
+        </div>
+        <div class="card">
+            <p class="card-title">POWER <span class="color-red"> W</span></p>
+            <div class="power"></div>
+        </div>
+        <div class="card">
+            <p class="card-title">ENERGY <span class="color-red"> kWh</span></p>
+            <div id="odometer" class="odometer">0,000.00</div>
+        </div>
+     </div>
+  </div>
+    <script src="odometer.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
